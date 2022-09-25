@@ -1,4 +1,4 @@
-class WhatIp < Formula
+class Whatip < Formula
     desc "A simple CLI program to look up an IP address"
     homepage "https://github.com/Cryptex-github/whatip"
     license "MIT"
