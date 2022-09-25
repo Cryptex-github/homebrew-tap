@@ -2,6 +2,7 @@ class WhatIp < Formula
     desc "A simple CLI program to look up an IP address"
     homepage "https://github.com/Cryptex-github/whatip"
     license "MIT"
+    version "0.3.2"
   
     on_macos do
         on_arm do
