@@ -7,7 +7,7 @@ class Whatip < Formula
     on_macos do
         on_arm do
           url "https://github.com/Cryptex-github/whatip/releases/download/v0.4.1/whatip-aarch64-apple-darwin.tar.gz"
-          sha256 "8b978c322e20779f80e1ef20f9b9fcc0521f73e4098585b2e3e25c2d31a64232"
+          sha256 "2e55418c65338f3cc45bb48d9a8a18328ab58e527cdb9f19fb509b6bcf2382a5"
         end
       
         on_intel do
@@ -19,7 +19,7 @@ class Whatip < Formula
     on_linux do
         on_intel do
             url "https://github.com/Cryptex-github/whatip/releases/download/v0.4.1/whatip-x86_64-unknown-linux-gnu.tar.gz"
-            sha256 "2e55418c65338f3cc45bb48d9a8a18328ab58e527cdb9f19fb509b6bcf2382a5"
+            sha256 "8b978c322e20779f80e1ef20f9b9fcc0521f73e4098585b2e3e25c2d31a64232"
         end
     end
     
