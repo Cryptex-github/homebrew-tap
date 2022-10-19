@@ -2,24 +2,24 @@ class Whatip < Formula
     desc "A simple CLI program to look up an IP address"
     homepage "https://github.com/Cryptex-github/whatip"
     license "MIT"
-    version "0.4.1"
+    version "0.4.2"
   
     on_macos do
         on_arm do
-          url "https://github.com/Cryptex-github/whatip/releases/download/v0.4.1/whatip-aarch64-apple-darwin.tar.gz"
-          sha256 "2e55418c65338f3cc45bb48d9a8a18328ab58e527cdb9f19fb509b6bcf2382a5"
+          url "https://github.com/Cryptex-github/whatip/releases/download/v0.4.2/whatip-aarch64-apple-darwin.tar.gz"
+          sha256 "4802203876a379f00ee93fa7204827dc89681ebb9a757551b547d30fe0c1d8a9"
         end
       
         on_intel do
-            url "https://github.com/Cryptex-github/whatip/releases/download/v0.4.1/whatip-x86_64-apple-darwin.tar.gz"
-            sha256 "343928c5305d9ee204aa2f2e74306122ad7ce40d51b9a30eeba214ce0617e393"
+            url "https://github.com/Cryptex-github/whatip/releases/download/v0.4.2/whatip-x86_64-apple-darwin.tar.gz"
+            sha256 "19ace8fe251c0cde2cab6c03a2ef9ba8d91d1ba2120c378e7668cc7bc84ca49f"
         end
     end
     
     on_linux do
         on_intel do
-            url "https://github.com/Cryptex-github/whatip/releases/download/v0.4.1/whatip-x86_64-unknown-linux-gnu.tar.gz"
-            sha256 "8b978c322e20779f80e1ef20f9b9fcc0521f73e4098585b2e3e25c2d31a64232"
+            url "https://github.com/Cryptex-github/whatip/releases/download/v0.4.2/whatip-x86_64-unknown-linux-gnu.tar.gz"
+            sha256 "1084d94fb0296d0b0d9a3ae3604fe648e2c95ceb6eb4f67e39acadd4ed0b2574"
         end
     end
     
